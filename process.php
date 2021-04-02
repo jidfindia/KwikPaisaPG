@@ -17,7 +17,7 @@ $orderid=$_POST['ORDER_ID'];
 $ordervalue=$_POST['TXN_AMOUNT'];
 // Parameters Accouring to Form Submitted at index.php -- End
 //Fetch Value From KP Environment file
-require_once 'kpenv/config.php';
+require_once 'config.php';
 $paramList = array();
 $paramList["KP_ENVIRONMENT"] = KP_ENVIRONMENT; /// Set in kpenv/config.php file
 $paramList["KPMID"] = KPMID; /// Set in kpenv/config.php file
